@@ -1,5 +1,5 @@
 Package: lpSolveAPI
-Version: 5.5.0.12-2
+Version: 5.5.0.12-3
 Date: 2008-06-12
 Title: Interface to lp_solve v. 5.5
 Author: lp_solve <http://lpsolve.sourceforge.net/>,
@@ -11,4 +11,4 @@ Description: The lpSolveAPI package provides an R interface to the lp_solve
     with support for pure linear, (mixed) integer/binary, semi-continuous
     and special ordered sets (SOS) models.
 License: LGPL-2
-Packaged: Thu Jun 12 15:21:44 2008; konis
+Packaged: Mon Jun 16 10:54:25 2008; konis

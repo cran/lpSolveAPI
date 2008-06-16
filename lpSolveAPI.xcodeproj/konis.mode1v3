@@ -267,14 +267,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>DA7F16CE0E01140F00F34E9B</string>
-								<string>DA7F174E0E01145000F34E9B</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>4</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -298,7 +296,7 @@
 							<real>224</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>252 138 1067 876 0 0 1680 1028 </string>
+						<string>249 143 1067 876 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -316,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Makevars</string>
+								<string>DESCRIPTION</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,25 +322,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Makevars</string>
+										<string>DESCRIPTION</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DA3A89CF0E0139C5003FE8A4</string>
+										<string>DA9675280E02D89100989378</string>
 										<key>history</key>
 										<array>
-											<string>DA092E680E0117EF0024712F</string>
 											<string>DA092E690E0117EF0024712F</string>
 											<string>DA3A89920E011991003FE8A4</string>
 											<string>DA3A89AC0E012C34003FE8A4</string>
-											<string>DA3A89BF0E0139C5003FE8A4</string>
-											<string>DA3A89C00E0139C5003FE8A4</string>
 											<string>DA3A89C10E0139C5003FE8A4</string>
 											<string>DA3A89C20E0139C5003FE8A4</string>
 											<string>DA3A89C30E0139C5003FE8A4</string>
-											<string>DA3A89C40E0139C5003FE8A4</string>
 											<string>DA3A89C50E0139C5003FE8A4</string>
-											<string>DA3A89C60E0139C5003FE8A4</string>
+											<string>DAE482F40E01864D008240DB</string>
+											<string>DA9675190E02D89100989378</string>
+											<string>DA96751A0E02D89100989378</string>
+											<string>DA96751B0E02D89100989378</string>
+											<string>DA96751C0E02D89100989378</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -353,15 +351,22 @@
 											<string>DA092E700E0117EF0024712F</string>
 											<string>DA3A89940E011991003FE8A4</string>
 											<string>DA3A89A30E012BA3003FE8A4</string>
-											<string>DA3A89AD0E012C34003FE8A4</string>
-											<string>DA3A89C70E0139C5003FE8A4</string>
-											<string>DA3A89C80E0139C5003FE8A4</string>
-											<string>DA3A89C90E0139C5003FE8A4</string>
 											<string>DA3A89CA0E0139C5003FE8A4</string>
 											<string>DA3A89CB0E0139C5003FE8A4</string>
 											<string>DA3A89CC0E0139C5003FE8A4</string>
 											<string>DA3A89CD0E0139C5003FE8A4</string>
 											<string>DA3A89CE0E0139C5003FE8A4</string>
+											<string>DA96751D0E02D89100989378</string>
+											<string>DA96751E0E02D89100989378</string>
+											<string>DA96751F0E02D89100989378</string>
+											<string>DA9675200E02D89100989378</string>
+											<string>DA9675210E02D89100989378</string>
+											<string>DA9675220E02D89100989378</string>
+											<string>DA9675230E02D89100989378</string>
+											<string>DA9675240E02D89100989378</string>
+											<string>DA9675250E02D89100989378</string>
+											<string>DA9675260E02D89100989378</string>
+											<string>DA9675270E02D89100989378</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -375,7 +380,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {821, 830}}</string>
 								<key>RubberWindowFrame</key>
-								<string>252 138 1067 876 0 0 1680 1028 </string>
+								<string>249 143 1067 876 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -395,7 +400,7 @@
 								<key>Frame</key>
 								<string>{{0, 835}, {821, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>252 138 1067 876 0 0 1680 1028 </string>
+								<string>249 143 1067 876 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -419,9 +424,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>DA3A89AF0E012C34003FE8A4</string>
+				<string>DA9675290E02D89100989378</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>DA3A89B00E012C34003FE8A4</string>
+				<string>DA96752A0E02D89100989378</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -559,7 +564,7 @@
 		<string>/u/smat/konis/Documents/Projects/lpSolveAPI/lpSolveAPI.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>252 138 1067 876 0 0 1680 1028 </string>
+	<string>249 143 1067 876 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -830,8 +835,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>DA3A89B30E0135AD003FE8A4</string>
-				<string>DA3A89B40E0135AD003FE8A4</string>
+				<string>DA9674F60E02CA9100989378</string>
+				<string>DA9674F70E02CA9100989378</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
