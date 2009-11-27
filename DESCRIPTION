@@ -1,6 +1,6 @@
 Package: lpSolveAPI
-Version: 5.5.0.15
-Date: 2009-09-19
+Version: 5.5.0.15-1
+Date: 2009-11-26
 Title: Interface to lp_solve 5.5.0.15
 Author: lp_solve <http://lpsolve.sourceforge.net/>, Kjell Konis
         <kjell.konis@epfl.ch>.
@@ -12,6 +12,8 @@ Description: The lpSolveAPI package provides an R interface to the
         integer/binary, semi-continuous and special ordered sets (SOS)
         models.
 License: LGPL-2
-Packaged: 2009-09-28 08:55:22 UTC; konis
 Repository: CRAN
-Date/Publication: 2009-09-28 10:35:26
+Repository/R-Forge/Project: lpsolve
+Repository/R-Forge/Revision: 101
+Date/Publication: 2009-11-27 09:45:32
+Packaged: 2009-11-26 21:10:25 UTC; rforge
