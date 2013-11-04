@@ -1,4 +1,4 @@
-3998104c68d46bcdecb15423a56fb128 *DESCRIPTION
+ae9509606842c0b4bacaf92238706da5 *DESCRIPTION
 4cfbf00f8ec826a4a226adbd383327c3 *NAMESPACE
 2e8846fe38ec93a79af5df85e757c279 *R/add.SOS.q
 05b0e0d7387f0646a710a72c90318ccb *R/add.column.q
@@ -35,7 +35,7 @@ b0ef549028fd6d34652126c22fafd18b *R/get.type.q
 9a2da4910e22c0544a3e805d34dcccfd *R/name.lp.q
 24819c41e1300cfd131c9fad08bfebaa *R/plot.lpExtPtr.q
 08af124f5ebced0c0936f4aa2e0c0f63 *R/print.lpExtPtr.q
-d96ebf0b6272c2c0268b028f891d1d4f *R/read.lp.q
+61818b14c117d73741ce82999959cf39 *R/read.lp.q
 2db027a7247b3331a4ef7bf569366f3b *R/resize.lp.q
 263592113221435e8cdece9ecef3f728 *R/row.add.mode.q
 be486b93a041ae26d882e6cf3946f49b *R/select.solution.q
@@ -55,8 +55,8 @@ db626f5d7162694a256a7dd08aea3fb3 *R/set.semicont.q
 80f585610279763164ab25a88da333a2 *R/solve.q
 4abf2dbe198a7ac753f1309da207b88f *R/write.lp.q
 e804ac2a5ab6905fde1c7741c3b857e5 *inst/doc/lpSolveAPI.pdf
-9c6f782b5a45da96c70f759bc8afdc9b *inst/include/RlpSolve.h
-80313ee46a45e04bd9df51b33fc12e62 *inst/include/RlpSolveLink.h
+2d76f3ee28d80ff4fb4bd36327af7e36 *inst/include/RlpSolve.h
+953ab0ddd3078af274eb9f57e7aa3bb7 *inst/include/RlpSolveLink.h
 0644d485996e02024c0c850138d7e33a *inst/include/colamd.h
 9eb68b305a37ba69203723fad8e151b4 *inst/include/commonlib.h
 6c83e2dd26013347d267fe48dc25033a *inst/include/ini.h
@@ -146,7 +146,7 @@ b7f4c992af470c57038ac5051c5e82a2 *man/guess.basis.Rd
 395ed3147ca6aebf697ff7b4aa43bddb *man/name.lp.Rd
 b1f84e5c620499995120328d41259ee0 *man/plot.lpExtPtr.Rd
 442a3533b13bc1af1dfdebd010ee38ce *man/print.lpExtPtr.Rd
-4d1be0be73f693ad37f6e22c31138859 *man/read.lp.Rd
+9a9f50fdfa1e0174be5f4ac682f3fe4b *man/read.lp.Rd
 779c9e073229b6ef24df6ed1327df418 *man/resize.lp.Rd
 0dff42ebb958a72b1f43fc99306a2b4f *man/row.add.mode.Rd
 e2db3d996b3ddb22a3fbe0135fc8bcd5 *man/select.solution.Rd
@@ -167,8 +167,8 @@ e920673ff7e49c242b475e2e579de370 *man/set.semicont.Rd
 3db43c2055aabc3265af95719f7904e7 *man/write.lp.Rd
 f9172879d3a2c121fcf60ff20bc95fc2 *src/Makevars
 98dd4746505b8b96551c72e3915bfc94 *src/Makevars.win
-c704c09b0024df879d9422116994f175 *src/RlpSolve.c
-69343b249053503c7f942aa5c53c6928 *src/RlpSolveLink.c
+977ea271ad08e150b908a5bed6f7b796 *src/RlpSolve.c
+c1674b3a3c762bc110aa4a699d96857a *src/RlpSolveLink.c
 a7b71eee4e0ce0e67b12cfb8fbd97138 *src/lp_solve/Makefile
 1daba86e501b8d0816f4b0684fe9542f *src/lp_solve/colamd.c
 fa99518051a662c731936c6ab8cb4ec7 *src/lp_solve/commonlib.c
