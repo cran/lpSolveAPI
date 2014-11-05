@@ -5,7 +5,7 @@
     Contact:       kjell.eikland@broadpark.no
     License terms: LGPL.
 
-    Requires:      lusol.h, lp_lib.h, myblas.h
+    Requires:      lusol.h, lp_lib.h, myblas.h // use BLAS.h from R
 
     Release notes:
     v2.0.0  1 March 2004        First implementation of the LUSOL v2.0 C translation.
@@ -24,7 +24,7 @@
 #include "lp_lib.h"
 
 /* Include libraries for this factorization system */
-#include "myblas.h"
+#include "R_ext/BLAS.h"
 #include "commonlib.h"
 #include "lp_LUSOL.h"
 #include "lusol.h"
@@ -103,8 +103,10 @@ MYBOOL BFP_CALLMODEL bfp_resize(lprec *lp, int newsize)
 
 #ifdef LUSOL_UseBLAS
 /*    if(fileSearchPath("PATH", "myBLAS.DLL", NULL) && load_BLAS("myBLAS")) */
+/*
     if(is_nativeBLAS() && load_BLAS(libnameBLAS))
       lp->report(lp, NORMAL, "Optimized BLAS was successfully loaded for bfp_LUSOL.\n");
+*/
 #endif
 
     /* Try to minimize memory allocation if we have a large number of unit columns */
