@@ -1,4 +1,4 @@
-fa06f10ca0712dee219a14e103da2b26 *DESCRIPTION
+2af12a2d646fd17904ac7c1efa134d89 *DESCRIPTION
 4cfbf00f8ec826a4a226adbd383327c3 *NAMESPACE
 2e8846fe38ec93a79af5df85e757c279 *R/add.SOS.q
 05b0e0d7387f0646a710a72c90318ccb *R/add.column.q
@@ -166,9 +166,9 @@ e920673ff7e49c242b475e2e579de370 *man/set.semicont.Rd
 3db43c2055aabc3265af95719f7904e7 *man/write.lp.Rd
 d5cd844499f29f820bfc1d88a55f8a63 *src/Makevars
 51677e16d4575e96a5bf2192b0411255 *src/Makevars.win
-ffc42b522559656d2650836aeef6c7f7 *src/RlpSolve.c
+eb3b56f8a895dbc25b8993da76140ee6 *src/RlpSolve.c
 b60f7d20a7f8c30cc31ee6d8de044131 *src/RlpSolveLink.c
-99aa4db0535c2f64d90a3aa549500ac7 *src/lp_solve/Makefile
+0b36af021509c6caa00c46a018ed4c33 *src/lp_solve/Makefile
 1daba86e501b8d0816f4b0684fe9542f *src/lp_solve/colamd.c
 fa99518051a662c731936c6ab8cb4ec7 *src/lp_solve/commonlib.c
 e1bbb07c059ef9d6b19b46ce756927da *src/lp_solve/ini.c
@@ -203,5 +203,5 @@ bd7fe7110848e225b15b20b0487e4332 *src/lp_solve/lusol7a.c
 7ba47a3255aac5089c56eb7046375647 *src/lp_solve/lusol8a.c
 e24745dc983819441b7b21afb1ccc8eb *src/lp_solve/mmio.c
 1249df4b4838521b0f46d25796a36695 *src/lp_solve/yacc_read.c
-a8fbb7ae960af4a7e2146c6d01653177 *tests/lpSolveAPI.R
-0d9961fd19f395960161ec29daab6071 *tests/lpSolveAPI.Rout.save
+53a423c03c4ffecc993d6198f1c23afb *tests/lpSolveAPI.R
+da55e36d545dcd4d1bb4808a0280ca68 *tests/lpSolveAPI.Rout.save
