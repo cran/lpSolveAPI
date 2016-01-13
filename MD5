@@ -1,5 +1,5 @@
-54a26a4e24d3c04ceea7df805a1ac5fc *DESCRIPTION
-4cfbf00f8ec826a4a226adbd383327c3 *NAMESPACE
+a8014434fa2d685692903ecc0d832f98 *DESCRIPTION
+6c9b1191e58c0ab566d0bf1c29b8fac1 *NAMESPACE
 2e8846fe38ec93a79af5df85e757c279 *R/add.SOS.q
 05b0e0d7387f0646a710a72c90318ccb *R/add.column.q
 2c376d82397962d2a6d5406a9a710933 *R/add.constraint.q
@@ -30,7 +30,7 @@ be59ad01460805d0c7cab5066b4c2397 *R/get.objective.q
 b0ef549028fd6d34652126c22fafd18b *R/get.type.q
 0a13244278a87c4c1d3be15ab6a607e7 *R/get.variables.q
 3f64272ae261ad4bdfc67eaa4e5935ca *R/guess.basis.q
-14b2380e78759b1a6b8e8ca75868b78e *R/lp.control.q
+94db931f9f847fb33964387a115044e3 *R/lp.control.q
 52a6c0f9b0342d5f691b89437e9ae8ba *R/make.lp.q
 9a2da4910e22c0544a3e805d34dcccfd *R/name.lp.q
 24819c41e1300cfd131c9fad08bfebaa *R/plot.lpExtPtr.q
