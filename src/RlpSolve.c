@@ -223,6 +223,7 @@ void R_init_lpSolveAPI(DllInfo *info)
     {NULL, NULL, 0}};
 
   R_registerRoutines(info, NULL, dotCallMethods, NULL, NULL);
+  R_useDynamicSymbols(info, TRUE);
 
   R_RegisterCCallable(package, "lp_solve_version", (DL_FUNC) lp_solve_version);
   R_RegisterCCallable(package, "make_lp", (DL_FUNC) make_lp);
