@@ -1,4 +1,4 @@
-570e622e475f0ea7b47e87133652d391 *DESCRIPTION
+469dd2a7cbd5a3187803287beabcae50 *DESCRIPTION
 6c9b1191e58c0ab566d0bf1c29b8fac1 *NAMESPACE
 2e8846fe38ec93a79af5df85e757c279 *R/add.SOS.q
 05b0e0d7387f0646a710a72c90318ccb *R/add.column.q
@@ -168,7 +168,7 @@ e920673ff7e49c242b475e2e579de370 *man/set.semicont.Rd
 d5cd844499f29f820bfc1d88a55f8a63 *src/Makevars
 51677e16d4575e96a5bf2192b0411255 *src/Makevars.win
 ddcdf8cd84d733e5f5d4d7b202e70a56 *src/RlpSolve.c
-b60f7d20a7f8c30cc31ee6d8de044131 *src/RlpSolveLink.c
+9c03e55eff6b2d6449455eddebae9f2f *src/RlpSolveLink.c
 464ed85e481807bdeaa5888e4e798a59 *src/lp_solve/Makefile
 1daba86e501b8d0816f4b0684fe9542f *src/lp_solve/colamd.c
 fa99518051a662c731936c6ab8cb4ec7 *src/lp_solve/commonlib.c

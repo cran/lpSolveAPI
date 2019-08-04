@@ -230,7 +230,9 @@ SEXP RlpSolve_set_rowex(SEXP Slp, SEXP Srow_no, SEXP Srow, SEXP Scolno)
   if(LENGTH(Srow) != LENGTH(Scolno))
     error("Srow and Scolno are not the same length");
 
-  RlpsHS(lp, set_rowex(lp, INTEGER(Srow_no)[0], LENGTH(Srow), REAL(Srow),
+  //set_rowex modifies in place, so duplicate
+  SEXP tmp = duplicate(Srow);
+  RlpsHS(lp, set_rowex(lp, INTEGER(Srow_no)[0], LENGTH(Srow), REAL(tmp),
                        INTEGER(Scolno)));
 
   return R_NilValue;
