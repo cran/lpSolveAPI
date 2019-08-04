@@ -161,8 +161,10 @@ SEXP RlpSolve_set_columnex(SEXP Slp, SEXP Scol_no, SEXP Scolumn, SEXP Srowno)
   if(LENGTH(Scolumn) != LENGTH(Srowno))
     error("Scolumn and Srowno are not the same length");
 
+  // set_columnex does in-place sort
+  SEXP tmp = duplicate(Scolumn);
   RlpsHS(lp, set_columnex(lp, INTEGER(Scol_no)[0], LENGTH(Scolumn),
-                          REAL(Scolumn), INTEGER(Srowno)));
+                          REAL(tmp), INTEGER(Srowno)));
 
   return R_NilValue;
 }

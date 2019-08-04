@@ -1,4 +1,4 @@
-469dd2a7cbd5a3187803287beabcae50 *DESCRIPTION
+b2914578becbd9ff1bbf8eee5e5e2c95 *DESCRIPTION
 6c9b1191e58c0ab566d0bf1c29b8fac1 *NAMESPACE
 2e8846fe38ec93a79af5df85e757c279 *R/add.SOS.q
 05b0e0d7387f0646a710a72c90318ccb *R/add.column.q
@@ -168,7 +168,7 @@ e920673ff7e49c242b475e2e579de370 *man/set.semicont.Rd
 d5cd844499f29f820bfc1d88a55f8a63 *src/Makevars
 51677e16d4575e96a5bf2192b0411255 *src/Makevars.win
 ddcdf8cd84d733e5f5d4d7b202e70a56 *src/RlpSolve.c
-9c03e55eff6b2d6449455eddebae9f2f *src/RlpSolveLink.c
+d87e1f48fa77661be148303c5c37044b *src/RlpSolveLink.c
 464ed85e481807bdeaa5888e4e798a59 *src/lp_solve/Makefile
 1daba86e501b8d0816f4b0684fe9542f *src/lp_solve/colamd.c
 fa99518051a662c731936c6ab8cb4ec7 *src/lp_solve/commonlib.c
@@ -178,7 +178,7 @@ e1bbb07c059ef9d6b19b46ce756927da *src/lp_solve/ini.c
 ab014ccd9a4fe180027fc046c54f4c52 *src/lp_solve/lp_Hash.c
 4ca3af02a366a6d70df63288da028aa6 *src/lp_solve/lp_LUSOL.c
 57c7e8103f98cca5d4ee665d9057911d *src/lp_solve/lp_MDO.c
-3e5ef1923f141bdc2510fae60a12e078 *src/lp_solve/lp_MPS.c
+97e042375604990d89af24ada49af880 *src/lp_solve/lp_MPS.c
 1cc8732a43e88e895d4f2db54964e441 *src/lp_solve/lp_SOS.c
 b1aae19001b503830ecb7c776e1f0a02 *src/lp_solve/lp_crash.c
 cd1d2b860a41e1d82785acfec3479d47 *src/lp_solve/lp_lib.c
