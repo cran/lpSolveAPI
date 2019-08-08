@@ -1,6 +1,8 @@
 #include "RlpSolve.h"
 #include "RlpSolveLink.h"
 
+#include <R_ext/Arith.h> // for NA_REAL
+
 /* Global variable defined in RlpSolve.c */
 
 extern SEXP RlpSolve_lprec_tag;
@@ -2036,7 +2038,9 @@ SEXP RlpSolve_get_sensitivity_objex(SEXP Slp)
   PROTECT(Sobjtill = allocVector(REALSXP, ncol));
   PROTECT(Sobjfromvalue = allocVector(REALSXP, ncol));
   PROTECT(Sobjtillvalue = allocVector(REALSXP, ncol));
-
+  // See the last may not be populated
+  double *r = REAL(Sobjtillvalue);
+  for(int i = 0; i < ncol; i++) r[i] = NA_REAL;
   status = get_sensitivity_objex(lp, REAL(Sobjfrom), REAL(Sobjtill),
                                  REAL(Sobjfromvalue), REAL(Sobjtillvalue));
 
