@@ -1,5 +1,5 @@
 e7286eb864c912aa8077716bb76f83e9 *ChangeLog
-de21a70d30950dcb75a44f382a4e42c8 *DESCRIPTION
+28306cf32ac4a6136f1659ffde6717e1 *DESCRIPTION
 6c9b1191e58c0ab566d0bf1c29b8fac1 *NAMESPACE
 2e8846fe38ec93a79af5df85e757c279 *R/add.SOS.q
 05b0e0d7387f0646a710a72c90318ccb *R/add.column.q
@@ -172,7 +172,7 @@ ddcdf8cd84d733e5f5d4d7b202e70a56 *src/RlpSolve.c
 2685368d0c5c9eec2881ffacb2fee17d *src/RlpSolveLink.c
 54adbbf1c92e6be73e87dc43d69baf8b *src/lp_solve/Makefile
 1daba86e501b8d0816f4b0684fe9542f *src/lp_solve/colamd.c
-fa99518051a662c731936c6ab8cb4ec7 *src/lp_solve/commonlib.c
+c5275830ad99a23d329f0dd51ddb3190 *src/lp_solve/commonlib.c
 e1bbb07c059ef9d6b19b46ce756927da *src/lp_solve/ini.c
 816e3eaa2445c883f1e5478dcdc24d90 *src/lp_solve/lp_BFP1.c
 2fca6d31732a95521753f453da04ce2f *src/lp_solve/lp_BFP2.c
@@ -193,7 +193,7 @@ f409ff0a7a69884c1e55fb21063ecb5f *src/lp_solve/lp_report.c
 9e781681ed8face430ad37689f0bfd2f *src/lp_solve/lp_rlp.c
 7d15b2e19598cf9dff06cc4d0bf953e9 *src/lp_solve/lp_scale.c
 d23278848d36a236eadbb53204a8c176 *src/lp_solve/lp_simplex.c
-d2ac892fa5a2b3e9adb688d6d2d1ae52 *src/lp_solve/lp_utils.c
+aefadb925d87d4bacd5ca16573638af1 *src/lp_solve/lp_utils.c
 42138761855b9e0ac8f8f6f3d6893e17 *src/lp_solve/lp_wlp.c
 6191eec15257982d02bea75d53afefb3 *src/lp_solve/lusol.c
 4e22fe4f34f9f333caa0013a44189e9a *src/lp_solve/lusol1.c
