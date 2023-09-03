@@ -1,5 +1,5 @@
-da46ad9032d5dd3112aaecc7085e61ea *ChangeLog
-9eaa96801ac0b3372172852711e77e0d *DESCRIPTION
+bddabca8842268aab19b7b9f91cec1e9 *ChangeLog
+14f0e37e9f42342ada98f25dc55c9bfc *DESCRIPTION
 6c9b1191e58c0ab566d0bf1c29b8fac1 *NAMESPACE
 2e8846fe38ec93a79af5df85e757c279 *R/add.SOS.R
 05b0e0d7387f0646a710a72c90318ccb *R/add.column.R
@@ -195,7 +195,7 @@ f409ff0a7a69884c1e55fb21063ecb5f *src/lp_solve/lp_report.c
 d23278848d36a236eadbb53204a8c176 *src/lp_solve/lp_simplex.c
 aefadb925d87d4bacd5ca16573638af1 *src/lp_solve/lp_utils.c
 42138761855b9e0ac8f8f6f3d6893e17 *src/lp_solve/lp_wlp.c
-6191eec15257982d02bea75d53afefb3 *src/lp_solve/lusol.c
+bb1046e95f913df5806d780f4c70f870 *src/lp_solve/lusol.c
 4e22fe4f34f9f333caa0013a44189e9a *src/lp_solve/lusol1.c
 db2a4d27cfa769c18876015d5aed5f23 *src/lp_solve/lusol2.c
 4484ec67924cf69f0b07d6579b135532 *src/lp_solve/lusol6a.c

@@ -63,6 +63,16 @@ void *clean_realloc(void *oldptr, int width, int newsize, int oldsize)
 {
   newsize *= width;
   oldsize *= width;
+/* FIX CRAN warning START
+   The valgrind 'additional issue' checks are now being done with Fedora 38 
+   and its valgrind 3.21.0.  This is flagging 'realloc with size 0' in packages
+*/
+  if (newsize <= 0) {
+    free(oldptr);
+    oldptr = NULL;
+    return(oldptr);
+  }
+/* FIX CRAN warning END*/
   oldptr = LUSOL_REALLOC(oldptr, newsize);
   if(newsize > oldsize)
 /*    MEMCLEAR(oldptr+oldsize, newsize-oldsize); */
