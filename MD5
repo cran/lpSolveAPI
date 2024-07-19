@@ -1,5 +1,5 @@
 cea1e701f2fc63607a49aa8917f4e9cb *ChangeLog
-a04b1fd3c908b8a55cbadaf54bc50b80 *DESCRIPTION
+e90d1c2a330972b4ef29396d0ed04eb3 *DESCRIPTION
 6c9b1191e58c0ab566d0bf1c29b8fac1 *NAMESPACE
 2e8846fe38ec93a79af5df85e757c279 *R/add.SOS.R
 05b0e0d7387f0646a710a72c90318ccb *R/add.column.R
@@ -169,7 +169,7 @@ e925955e8e5359130062f33889d34404 *man/write.lp.Rd
 d5cd844499f29f820bfc1d88a55f8a63 *src/Makevars
 51677e16d4575e96a5bf2192b0411255 *src/Makevars.win
 f3680f50d36585b6c9dc8e2663d774f3 *src/RlpSolve.c
-3ff54e9fb72feafc38ec39d6d22ad20b *src/RlpSolveLink.c
+32fc9c41048708107987fbbd294da074 *src/RlpSolveLink.c
 54adbbf1c92e6be73e87dc43d69baf8b *src/lp_solve/Makefile
 b92e9f91032f6c54a86086136dff4be9 *src/lp_solve/colamd.c
 c5275830ad99a23d329f0dd51ddb3190 *src/lp_solve/commonlib.c
