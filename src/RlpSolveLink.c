@@ -1097,9 +1097,6 @@ SEXP RlpSolve_reset_basis(SEXP Slp)
 }
 
 
-/*write_basis*/
-
-
 SEXP RlpSolve_guess_basis(SEXP Slp, SEXP Sguessvector)
 {
   SEXP ret = R_NilValue;
