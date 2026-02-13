@@ -3631,46 +3631,6 @@ STATIC MYBOOL presolve_finalize(presolverec *psdata)
   return(mat_validate(lp->matA));
 }
 
-STATIC MYBOOL presolve_debugdump(lprec *lp, presolverec *psdata, char *filename, MYBOOL doappend)
-{
-  FILE   *output; /* = stdout; */
-  int   size;
-  MYBOOL ok;
-
-  ok = (MYBOOL) ((filename == NULL) || ((output = fopen(filename, my_if(doappend, "a", "w"))) != NULL));
-  if(!ok)
-    return(ok);
-  if((filename == NULL) && (lp->outstream != NULL))
-    output = lp->outstream;
-
-  fprintf(output, "\nPRESOLVE - Status at loop %d:%d:%d\n",
-                  psdata->outerloops, psdata->middleloops, psdata->innerloops);
-  fprintf(output, "Model size:     %d rows (%d equalities, %d less than), %d columns\n",
-                  psdata->rows->varmap->count, psdata->EQmap->count, psdata->LTmap->count, psdata->cols->varmap->count);
-
-  fprintf(output, "\nMAPPERS\n-------\n\n");
-  size = 1;
-  blockWriteINT(output,  "colmap", psdata->cols->varmap->map, 0, size*psdata->cols->varmap->size);
-  blockWriteINT(output,  "rowmap", psdata->rows->varmap->map, 0, size*psdata->rows->varmap->size);
-  blockWriteINT(output,  "EQmap",  psdata->EQmap->map,  0, size*psdata->EQmap->size);
-  blockWriteINT(output,  "LTmap",  psdata->LTmap->map,  0, size*psdata->LTmap->size);
-
-  fprintf(output, "\nCOUNTS\n------\n\n");
-  blockWriteINT(output, "plucount",  psdata->rows->plucount,  0, lp->rows);
-  blockWriteINT(output, "negcount",  psdata->rows->negcount,  0, lp->rows);
-  blockWriteINT(output, "pluneg",    psdata->rows->pluneg,    0, lp->rows);
-
-  fprintf(output, "\nSUMS\n----\n\n");
-  blockWriteREAL(output, "pluupper", psdata->rows->pluupper, 0, lp->rows);
-  blockWriteREAL(output, "negupper", psdata->rows->negupper, 0, lp->rows);
-  blockWriteREAL(output, "plulower", psdata->rows->pluupper, 0, lp->rows);
-  blockWriteREAL(output, "neglower", psdata->rows->negupper, 0, lp->rows);
-
-  if(filename != NULL)
-    fclose(output);
-  return(ok);
-}
-
 int CMP_CALLMODEL compRedundant(const UNIONTYPE QSORTrec *current, const UNIONTYPE QSORTrec *candidate)
 {
   int start1 = (int) (current->int4.intpar1),
@@ -5652,11 +5612,7 @@ write_lp(lp, "test_in.lp");    /* Write to lp-formatted file for debugging */
         break;
 
       /* Check if we can do elimination of rank-deficient equality constraints */
-      if(presolve_statuscheck(psdata, &status) && (psdata->EQmap->count > 1) &&
-         is_presolve(lp, PRESOLVE_LINDEP)) {
-#if 0
-        REPORT_mat_mmsave(lp, "A.mtx", NULL, FALSE, "Constraint matrix A");
-#endif
+      if(presolve_statuscheck(psdata, &status) && (psdata->EQmap->count > 1) && is_presolve(lp, PRESOLVE_LINDEP)) {
         presolve_singularities(psdata, &iCoeffChanged, &iConRemove, &iVarFixed, &iSum);
       }
 
@@ -5871,14 +5827,6 @@ Finish:
   lp->wasPresolved  = TRUE;
   lp->timepresolved = timeNow();
 
-#if 0
-/*  write_mps(lp, "test_out.mps"); */ /* Must put here due to variable name mapping */
-  write_lp(lp, "test_out.lp");   /* Must put here due to variable name mapping */
-#endif
-#if 0
-  REPORT_debugdump(lp, "testint2.txt", FALSE);
-#endif
-
   return( status );
 
 }
@@ -5917,9 +5865,6 @@ STATIC MYBOOL postsolve(lprec *lp, int status)
   /* Check if we can clear the variable map */
   if(varmap_canunlock(lp))
     lp->varmap_locked = FALSE;
-#if 0
-  REPORT_mat_mmsave(lp, "basis.mtx", NULL, FALSE);  /* Write the current basis matrix (no OF) */
-#endif
 
   return( TRUE );
 }
